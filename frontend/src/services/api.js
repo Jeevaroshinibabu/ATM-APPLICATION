@@ -2,7 +2,7 @@
 
 import axios from "axios";
 
-const API = "http://localhost:5001/api/atm";
+const API = "https://atm-application-2-v704.onrender.com/api/atm";
 
 export const signup = (data) => {
   return axios.post(`${API}/signup`, data);

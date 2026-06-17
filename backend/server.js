@@ -11,7 +11,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://atm-application-2kh4.vercel.app/",
 }));
 app.use(express.json());
 
